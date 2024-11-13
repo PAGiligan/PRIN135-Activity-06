@@ -1,6 +1,16 @@
+@media (min-width: 425px) {
+    .sidebar {
+        width: 250px;
+    }
 
-html {
+HTML {
     scroll-behavior: smooth;
+    margin-left: 0;
+    overflow-x: auto;
+}
+HTML table{
+    overflow-x: auto;
+}
 }
 
 body {
@@ -84,3 +94,4 @@ th {
     background-color:#7F86D2;
     color: #EDF2DE;
 }
+
