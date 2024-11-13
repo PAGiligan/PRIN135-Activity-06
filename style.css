@@ -6,7 +6,7 @@ body {
     font-family: "Tiny5", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-left: 300px;
+    padding-left: 18%;
 }
 
 
@@ -109,7 +109,7 @@ HTML table{
         max-height: 150px;
     }
 
-    .HTML {
+    HTML {
         margin-left: 0;
     }
 
@@ -118,3 +118,18 @@ HTML table{
         flex-direction: column;
         overflow-y: auto;
     }
+
+    HTML {
+        overflow-x: scroll;
+    }
+
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    th, td {
+        white-space: nowrap;
+    }
+}
