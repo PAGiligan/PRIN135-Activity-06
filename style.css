@@ -1,16 +1,5 @@
-@media (min-width: 425px) {
-    .sidebar {
-        width: 250px;
-    }
-
 HTML {
-    scroll-behavior: smooth;
-    margin-left: 0;
-    overflow-x: auto;
-}
-HTML table{
-    overflow-x: auto;
-}
+scroll-behavior: smooth;
 }
 
 body {
@@ -95,3 +84,37 @@ th {
     color: #EDF2DE;
 }
 
+@media (min-width: 425px) {
+    .sidebar {
+        width: 250px;
+    }
+
+    HTML {
+    scroll-behavior: smooth;
+    margin-left: 0;
+    overflow-x: auto;
+}
+HTML table{
+    overflow-x: auto;
+}
+}
+
+@media (max-width: 425px) {
+   
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        overflow-y: scroll;
+        max-height: 150px;
+    }
+
+    .HTML {
+        margin-left: 0;
+    }
+
+    .sidebar ul {
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+    }
